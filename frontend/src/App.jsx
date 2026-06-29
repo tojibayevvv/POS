@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Auth from "./pages/Auth"
 import Orders from "./pages/Orders"
 import Header from "./components/shared/Header"
+import BottomNav from "./components/shared/BottomNav"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/auth" element={<Auth/>}/>
         <Route path="/orders" element={<Orders/>}/>
       </Routes>
+      <BottomNav/>
     </Router>
   )
 }
